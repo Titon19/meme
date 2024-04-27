@@ -1,6 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "*.php", "use": "@vercel/php" }
-  ]
+  "builds": [{ "src": "api/index.php", "use": "@vercel/php" }]
 }
